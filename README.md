@@ -1,5 +1,5 @@
 # DbAgnosticMembershipProvider
-Implementation of **WebMatrix.WebData.ExtendedMembershipProvider** that only depends on an **IMembershipService**, allowing more than just MS SQL Server data access layers.
+Implementation of `WebMatrix.WebData.ExtendedMembershipProvider` that only depends on an **IMembershipService**, allowing more than just MS SQL Server data access layers.
 
 
 ## Web.config
