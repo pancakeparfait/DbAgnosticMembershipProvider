@@ -1,5 +1,5 @@
 # DbAgnosticMembershipProvider
-Implementation of `WebMatrix.WebData.ExtendedMembershipProvider` that only depends on an `IMembershipService`, allowing more than just **Microsoft SQL Server** data access layers.
+Implementation of `WebMatrix.WebData.ExtendedMembershipProvider` that behaves like a `SimpleMembershipProvider` and only depends on an `IMembershipService`, allowing more than just **Microsoft SQL Server** data access layers.
 
 ## User Profile
 Define an entity in your data access layer that implements `IUserProfile`.
