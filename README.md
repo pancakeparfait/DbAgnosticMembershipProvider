@@ -4,7 +4,7 @@ Implementation of `WebMatrix.WebData.ExtendedMembershipProvider` that behaves li
 ## User Profile
 Define an entity in your data access layer that implements `IUserProfile`.
 ```c#
-public class UserProfile : Pancake.MembershipProviders.IUserProfile
+public partial class UserProfile : Pancake.MembershipProviders.IUserProfile
 {
   public virtual int Id { get; set; }
   public virtual string Username { get; set; }
